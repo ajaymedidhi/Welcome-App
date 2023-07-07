@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e293b;
+  height: 100vh;
+}
+.btn {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 6px;
+  border-width: 0px;
+}
+.main {
+  color: #f0bb03;
+  font-family: 'Bree Serif';
+}
+.des {
+  color: #ffffff;
+}
+
+@media (min-width: 476px) {
+  .main {
+    color: #f0bb03;
+    font-family: 'Bree Serif';
+    font-size: 30px;
+  }
+}
